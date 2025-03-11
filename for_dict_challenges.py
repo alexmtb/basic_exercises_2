@@ -5,6 +5,7 @@
 # Маша: 2
 # Петя: 2
 
+print('\nЗадание 1:\n')
 students = [
     {'first_name': 'Вася'},
     {'first_name': 'Петя'},
@@ -13,6 +14,8 @@ students = [
     {'first_name': 'Петя'},
 ]
 # ???
+for student in students:
+    print(f'{student["first_name"]}: {students.count(student)}')
 
 
 # Задание 2
